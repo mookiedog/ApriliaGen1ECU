@@ -12,6 +12,12 @@ This repository was finally created to track the changes to the circuit diagrams
 
 ## Status
 
+I understand that Eagle is an old tool these days.
+The initial goal will be to find some tool that will automatically generate .png files
+of all the schematic pages.
+
+At some point, it would be worth migrating these schematics to Kicad.
+
 I am still updating the schematics as try to figure out new things in support of the [umod4 project](https://github.com/mookiedog/umod4).
 
 You will also note that the repository only contains schematics with no board file.
