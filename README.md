@@ -16,13 +16,20 @@ I understand that Eagle is an old tool these days.
 The initial goal will be to find some tool that will automatically generate .png files
 of all the schematic pages.
 
+For now, the schematics can be converted to PNG files as follows:
+
+1) Open the schematic in Eagle
+2) Type the following command directly into the command line entry box:
+
+    ```run 'C:\Program Files\Eagle\ulp\exp2image.ulp' color 300 .png 91 92 94 95 96 97 98 99```
+
 At some point, it would be worth migrating these schematics to Kicad.
 
 I am still updating the schematics as try to figure out new things in support of the [umod4 project](https://github.com/mookiedog/umod4).
 
 You will also note that the repository only contains schematics with no board file.
-There is no board file because there is no point in replicating the board at this point.
-If you need another ECU PCB, they are easy to come by on eBay.
+There is no Eagle board file because replicating a PCB full of obsolete parts is pointless.
+If you need another PCB, they are easy to come by on eBay.
 
 ## Wish List
 
