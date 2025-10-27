@@ -1,0 +1,25 @@
+# Aprilia Gen1 ECU Circuit Diagrams
+
+These circuit diagrams were initially created starting around 2003.
+It was part of a project to figure out how the Aprila fuel injection ECU worked.
+Over the years, that project spiraled into the ultramod project, which is described here.
+
+The first step of figuring out the ECU operation was to try and reverse engineer the circuit board.
+That involved many, many hours of staring at the board through a jewelers loupe and making circuit diagrams on paper.
+Over time, the paper diagrams got transcribed into Cadsoft Eagle.
+
+This repository was finally created to track the changes to the circuit diagrams.
+
+## Status
+
+I am still updating the schematics as try to figure out new things in support of the [umod4 project](https://github.com/mookiedog/umod4).
+
+You will also note that the repository only contains schematics with no board file.
+There is no board file because there is no point in replicating the board at this point.
+If you need another ECU PCB, they are easy to come by on eBay.
+
+## Wish List
+
+I would really like to figure out how the cam and crank sensors get processed.
+My goal would be to figure out how to fool an ECU sitting on a bench to think 
+it was attached to a spinning engine.
